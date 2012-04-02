@@ -1,0 +1,16 @@
+{
+  "id": "net.better-apps.betterpdf",
+  "version": "0.9.0",
+  "copyright": "Copyright © 2011 - 2012",
+  "vendor": "Better Apps",
+  "vendorurl": "http://www.better-apps.net",
+  "type": "web",
+  "uiRevision": 2,
+  "removable": true,
+  "plug-ins": true,
+  "main": "index.html",
+  "title": "Better PDF",
+  "icon": "icon.png",
+  "splashicon": "images/pdf-256x256.png",
+  "mimeTypes": [ { "mime": "application/pdf", "extension": "pdf", "app": "Better PDF" } ]
+}

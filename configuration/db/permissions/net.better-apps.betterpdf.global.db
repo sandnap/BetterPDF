@@ -1,0 +1,14 @@
+[	
+	{
+		"type"		: "db.kind",
+		"object"	: "net.better-apps.betterpdf.global.db:1",
+		"caller"	: "net.better-apps.betterpdf",
+		"operations":
+		{
+			"create": "allow",
+			"read"	: "allow",
+			"update": "allow",
+			"delete": "allow"
+		}
+	}
+]

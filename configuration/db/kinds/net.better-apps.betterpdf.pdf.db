@@ -1,0 +1,6 @@
+{
+	"id": "net.better-apps.betterpdf.pdf.db:1",
+	"indexes": [
+		{"name": "fileName", "props": [{"name": "fileName"}]}
+	]
+}

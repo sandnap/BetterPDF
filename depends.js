@@ -1,0 +1,15 @@
+enyo.depends(
+	"source/db/PDFDocument.js",
+	"source/db/GlobalSettings.js",
+	"source/util/PDFFile.js",
+	"source/navpane/NavPane.js",
+  "source/pdfpane/PDFPane.js",
+	"source/service/PDFService.js",
+	"source/pdfpane/PDFImageView.js",
+	"source/navpane/SearchPanel.js",
+	"source/navpane/ThumbsPanel.js",
+	"source/navpane/TOCPanel.js",
+	"source/navpane/BookmarksPanel.js",
+	"source/BetterPDFReader.js",
+	"css/BetterPDFReader.css"
+);

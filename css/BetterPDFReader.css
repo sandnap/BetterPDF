@@ -1,0 +1,268 @@
+.topToolbar {
+	height: 45px;
+	width: 100%;
+	min-width: 500px;
+	position: absolute;
+	z-index: 10;
+}
+
+.toolbarBackground {
+	background-color: #94948f;
+	border: 1px solid #54544f;
+	width: 100%;
+	height: 45px;
+	opacity: 0.9;
+}
+
+.topToolbarClosed {
+	height: 0px;
+}
+
+.bookTitle {
+	display: inline;
+	float: left;
+	padding-left: 30px;
+	padding-top: 10px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.bottomToolbar {
+	min-height: 45px;
+	height: 45px;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0px;
+	z-index: 10;
+	color: #FFF;
+}
+
+.bottomToolbarClosed {
+	height: 0px;
+}
+
+.bottomCenterToolbarSection {
+	height: 45px;
+	display: inline;
+	float: left;
+}
+
+.bottomRightToolbarSection {
+	width: 60px;
+	height: 45px;
+	float: right;
+}
+
+.settingsImage {
+	padding-right: 10px;
+	padding-top: 10px;
+	float: left;
+}
+
+.grabButton {
+	float: left;
+}
+
+.pageNumberInput {
+	text-align: center;
+	color: #FFF;
+	/* background-color: #94948f; */
+}
+
+.pageNumberInputFocus {
+	text-align: center;
+	color: #000;
+	/*background-color: #94948f;*/
+}
+
+.pageNumberText {
+	padding-top: 10px;
+	float: left;
+}
+
+.navPane {
+		height: 100%;
+}
+
+.navToolbar {
+		background-color: #94948f;
+		height: 45px;
+}
+
+.settingsLabel {
+		font-size: 16px;
+		margin-right: 10px;
+}
+
+.tabPanel {
+	background-color: #c4c4af;
+	opacity: 0.99;
+}
+
+.toolbarImage {
+	width: 32px;
+	height: 32px;
+	margin-top: 5px;
+}
+
+.toolBarImageBorder {
+		border: inset 1px #999;
+}
+
+.inlineLeft {
+	display: inline;
+	float: left;
+}
+
+.tabButtonGroup {
+	height: 45px;
+	background-color: #94948f;
+	border: 1px solid #54544f;
+	width: 300px;
+}
+
+.tabButton {
+	display: inline-block;
+	width: 58px;
+	height: 40px;
+	border: groove #54544f 1px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.tabButtonFocus {
+	background-color: #c4c4af;
+	display: inline-block;
+	width: 58px;
+	height: 40px;
+	border: groove #54544f 1px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.tabImage {
+	width: 32px;
+	height: 32px;
+}
+
+.viewOverlayHide {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background-image: url('../images/bg.gif');
+		z-index: 0;
+}
+
+.viewOverlayShow {
+		z-index: 8;
+}
+
+.loadingText {
+		font-size: 28px;
+		color: #C5C5C5;
+}
+
+.pdfView {
+	background-image: url('../images/bg.gif');
+	z-index: 5;
+}
+
+.pdf-page {
+    border: solid 1px black;
+}
+
+.bookmarkPage {
+  font-size: "16px";
+  font-weight: bold;
+	color: #000;
+}
+
+.bookmarkLink {
+  font-size: "14px";
+  font-weight: normal;
+	color: #000;
+	padding-left: 15px;
+	padding-top: 4px;
+}
+
+.dialogButtons {
+		padding-top: 20px;
+}
+
+.thumbImage {
+		width: 280px;
+		height: 346px;
+}
+
+.thumbCurrentImage {
+		border: thick solid #555;
+		width: 272px;
+}
+
+.toc {
+	min-height: 100%;
+}
+
+.tocLink {
+  font-weight: normal;
+	color: #000;
+	margin-top: 2px;
+	overflow: hidden;
+	white-space: nowrap;
+  text-overflow : ellipsis;
+}
+
+.tocLink-1 {
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: 25px;
+}
+
+.tocLink0 {
+  margin-top: 7px;
+	max-height: 22px;
+	font-size: 18px;
+	margin-left: 0px;
+}
+
+.tocLink1 {
+  margin-top: 5px;
+	max-height: 22px;
+	font-size: 18px;
+	margin-left: 8px;
+}
+
+.tocLink2 {
+  margin-top: 4px;
+	max-height: 22px;
+	font-size: 18px;
+	margin-left: 24px;
+}
+
+.tocLink3 {
+  margin-top: 3px;
+	max-height: 21px;
+	font-size: 17px;
+	margin-left: 32px;
+}
+
+.tocLink4 {
+	max-height: 19px;
+	font-size: 15px;
+	margin-left: 40px;
+}
+
+.tocLink5 {
+	max-height: 16px;
+	font-size: 14px;
+	margin-left: 48px;
+}
+
+.tocLink6 {
+	max-height: 16px;
+	font-size: 14px;
+	margin-left: 56px;
+}
